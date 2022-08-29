@@ -1,8 +1,6 @@
-function desligar(lampadaDesligada, fundoDesligada){
-  document.getElementById('lampada').style.backgroundColor = lampadaDesligada
-  document.getElementById('fundo').style.backgroundColor = fundoDesligada
+function desligar(){
+  document.getElementById('lampada').innerHTML = '<img src="lampadaApagada.jpg"/>';
 }
-function ligar(lampadaLigada, fundoLigada){
-  document.getElementById('lampada').style.backgroundColor = lampadaLigada
-  document.getElementById('fundo').style.backgroundColor = fundoLigada
+function ligar(){
+  document.getElementById('lampada').innerHTML = '<img src="lampadaAcesa.jpg"/>';
 }
