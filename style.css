@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fundoDesligada{
+    background-color: #393939;
+}
+#fundoLigada{
+    background-color: #ffffff;
+}
+#botoes{
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 100px;
+}
+button{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0)
+}
+#lampada{
+    margin: auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0)
+}
+#baseLampada{
+    margin:auto;
+    margin-top: -25px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 175, 175);
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 1px solid black
+}
